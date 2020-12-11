@@ -18,6 +18,7 @@ public class Solution {
         reader.close();
     }
 
+    //Поиск файлов
     public static void findFile(String partName, File sourceFile) throws IOException {
         String simplePartName = partName.replaceAll("[^\\d]", "");
         File[] listFiles = sourceFile.listFiles();
@@ -49,6 +50,7 @@ public class Solution {
         }
     }
 
+    //Выбор пути
     public static String choosePath(String partName, File file) {
         String name = file.getName();
         String path2D = "D:\\Panchev\\_Projects\\HGM-NIVA\\GFE_51\\2D\\";

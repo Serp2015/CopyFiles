@@ -2,6 +2,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 
+//копирование ТУ
 public class CopyTS {
     public static void main(String[] args) throws IOException {
         File sourceFile = new File("D:\\Panchev\\_Projects\\HGM-NIVA\\Input");

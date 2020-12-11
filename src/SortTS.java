@@ -2,6 +2,7 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
 
+//удаление одинаковых строк
 public class SortTS {
     public static void main(String[] args) throws IOException {
         File fileTS = new File("D:\\Panchev\\_Projects\\HGM-NIVA\\ListTS.txt");
